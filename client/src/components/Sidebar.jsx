@@ -18,6 +18,7 @@ function Sidebar() {
                     <Link to="/attendance" style = {linkStyle}>Attendance</Link>
                     <Link to="/marks" style={linkStyle}>Marks</Link>
                     <Link to="/login" style = {linkStyle}>Login</Link>
+                    <Link to="/assignments" style={linkStyle}>Assignments</Link>
                 </div>
             </div>
     );
