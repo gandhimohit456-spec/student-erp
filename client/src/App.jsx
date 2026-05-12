@@ -5,6 +5,7 @@ import Dashboard from "./pages/Dashboard";
 import Attendance from "./pages/Attendance";
 import Marks from "./pages/Marks";
 import Assignments from "./pages/Assignments";
+import Notices from "./pages/Notices";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/attendance" element={<Attendance />} />
       <Route path="/marks" element={<Marks />} />
       <Route path="/assignments" element={<Assignments />} />
+      <Route path="/notices" element={<Notices />}/>
       </Routes>
       </BrowserRouter>
   );
